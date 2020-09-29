@@ -44,4 +44,4 @@ const person = {
 
 console.log("Hello nama saya " + person.firstName + " " + person.lastName + "." + " umur saya adalah " + person.age)
 
-console.log(`Hello nama saya ${person.firsName} ${person.lastName}. Umur saya adalah ${person.age}`);
+console.log(`Hello nama saya ${person.firsName} ${person.lastName}. Umur saya adalah ${person.age}`)
