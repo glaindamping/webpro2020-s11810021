@@ -1,3 +1,4 @@
+  
 import react from 'react'
 
 const Card = ({name, institution, address, phone}) =>{
