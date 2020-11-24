@@ -3,7 +3,8 @@ import './App.css'
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
 import { Home, Login, Register } from './pages'
 
-function App() {
+
+const App = () =>{
     return (
         <Router>
             <div>
@@ -16,12 +17,12 @@ function App() {
                         </li>
                         <li>
                             <Link to="/login">
-                                   Login
+                                Login
                             </Link>
                         </li>
                         <li>
                             <Link to="/register">
-                                       Register
+                                Register
                             </Link>
                         </li>
                     </ul>
